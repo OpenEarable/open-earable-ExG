@@ -1,0 +1,8 @@
+cores/arduino/mbed/*
+cores/arduino/api/Stream.h
+cores/arduino/api/deprecated/Stream.h
+cores/arduino/main.cpp
+libraries/openamp*
+cores/arduino/USB/*
+variants/*
+libraries/*

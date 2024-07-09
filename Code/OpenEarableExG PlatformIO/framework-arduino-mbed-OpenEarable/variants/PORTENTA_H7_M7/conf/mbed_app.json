@@ -1,0 +1,30 @@
+{
+  "target_overrides": {
+    "*": {
+      "target.printf_lib": "std",
+      "platform.stdio-buffered-serial": false,
+      "platform.stdio-baud-rate": 115200,
+      "platform.default-serial-baud-rate": 115200,
+      "platform.callback-nontrivial": true,
+      "platform.all-stats-enabled": true,
+      "platform.memory-tracing-enabled": true,
+      "rtos.main-thread-stack-size": 32768,
+      "cordio.max-connections": 5,
+      "cellular.debug-at": true,
+      "cellular.offload-dns-queries": true,
+      "cellular.at-handler-buffer-size": 512,
+      "mbed-trace.enable": true,
+      "target.mbed_app_start": "0x8040000",
+      "target.macros_add": [
+        "BT_UART_NO_3M_SUPPORT",
+        "USB_DYNAMIC_CONFIGURATION",
+        "METAL_INTERNAL",
+        "VIRTIO_MASTER_ONLY",
+        "NO_ATOMIC_64_SUPPORT",
+        "METAL_MAX_DEVICE_REGIONS=2",
+        "RPMSG_BUFFER_SIZE=2048",
+        "LSE_STARTUP_TIMEOUT=200"
+      ]
+    }
+  }
+}

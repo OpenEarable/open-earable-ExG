@@ -1,0 +1,15 @@
+{
+  "name": "framework-arduino-mbed",
+  "version": "4.0.10",
+  "description": "Arduino framework supporting mbed-enabled boards",
+  "keywords": [
+    "framework",
+    "arduino",
+    "mbed"
+  ],
+  "homepage": "https://www.arduino.cc/reference/en",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arduino/ArduinoCore-mbed"
+  }
+}
